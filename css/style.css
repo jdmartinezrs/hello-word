@@ -8,9 +8,7 @@
    
 }
 
-body{
-    background: var(--color-grey);
-}
+
 header{
     width: 100vw;
     display: flex;
@@ -34,16 +32,17 @@ header{
 }
 
 .container{
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(11,1fr);
     grid-template-rows: repeat(5,1fr);
     grid-gap: 10px;
     grid-template-areas: 
-    ". fou fou fou fot fot fot foe foe foe ."
-    ". fou fou fou fot fot fot foe foe foe ."
-    ". fou fou fou fot fot fot foe foe foe ."
-    ". fof fof fof foc foc foc fos fos fos ."
-    ". fof fof fof foc foc foc fos fos fos ."
+
+    ". fou fou fou fot fot fot xsx xsx xsx ."
+    ". fou fou fou fot fot fot xsx xsx xsx ."
+    ". fou fou fou fot fot fot xsx xsx xsx ."
+    ". fof fof fof foc foc foc tex tex tex ."
+    ". fof fof fof foc foc foc tex tex tex ."
     ;
     
 
@@ -58,6 +57,10 @@ header{
 .container__one{
     background: red;
     grid-area: fou;
+    background-image: url(../storage/img/function.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
 .container__one img{
@@ -71,12 +74,12 @@ header{
 
 .container__tres{
     background: yellow;
-    grid-area:foe;
+    grid-area:xsx;
 }
 
 .container__four{
     background: purple;
-    grid-area:fof ;
+    grid-area:fof;
 }
 
 .container__five{
@@ -86,6 +89,6 @@ header{
 
 .container__six{
     background: gray;
-    grid-area: fos;
+    grid-area: tex;
 }
 
