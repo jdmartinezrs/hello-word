@@ -8,6 +8,8 @@
    
 }
 
+body{background: var(--color-grey);}
+
 
 header{
     width: 100vw;
@@ -32,7 +34,7 @@ header{
 }
 
 .container{
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(11,1fr);
     grid-template-rows: repeat(5,1fr);
     grid-gap: 10px;
@@ -45,12 +47,9 @@ header{
     ". fof fof fof foc foc foc tex tex tex ."
     ;
     
-
-
-
     width: 100vw;
-    height: 1000px;
-    /* background-color: pink; */
+    height: 100vh;
+   
 
 }
 
@@ -60,21 +59,29 @@ header{
     background-image: url(../storage/img/function.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     
 }
-.container__one img{
+/* .container__one img{
     height: 100px;
-}
+} */
 
 .container__two{
     background: blue;
     grid-area: fot;
+    background-image: url(../storage/img/object.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
 .container__tres{
     background: yellow;
     grid-area:xsx;
+    background-image: url(../storage/Sin\ título-1_Mesa\ de\ trabajo\ 1\ copia\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
 .container__four{
