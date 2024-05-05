@@ -123,3 +123,12 @@ header{
 .footwork {
     background: blue;
 }
+
+.list{
+    text-align: center;
+    padding: 5px;
+}
+
+.lista-records{
+    list-style: none;
+}
